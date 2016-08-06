@@ -1,0 +1,10 @@
+System.Exception: Target "./build.sh" is not defined.
+   at Fake.TargetHelper.getTarget@77-2.Invoke(String message) in C:\code\fake\src\app\FakeLib\TargetHelper.fs:line 77
+   at Fake.TargetHelper.visitDependenciesAux@352[a](FSharpFunc`2 fGetDependencies, FSharpFunc`2 fVisit, HashSet`1 visited, List`1 ordered, Int32 level, Tuple`2 tupledArg) in C:\code\fake\src\app\FakeLib\TargetHelper.fs:line 353
+   at Fake.TargetHelper.visit@349-1[a](FSharpFunc`2 fGetDependencies, FSharpFunc`2 fVisit, String targetName) in C:\code\fake\src\app\FakeLib\TargetHelper.fs:line 359
+   at Fake.TargetHelper.visitDependencies(FSharpFunc`2 fVisit, String targetName) in C:\code\fake\src\app\FakeLib\TargetHelper.fs:line 363
+   at Fake.TargetHelper.run$cont@511(String targetName, Unit unitVar) in C:\code\fake\src\app\FakeLib\TargetHelper.fs:line 551
+   at Fake.TargetHelper.run(String targetName) in C:\code\fake\src\app\FakeLib\TargetHelper.fs:line 511
+   at Fake.AdditionalSyntax.RunTargetOrDefault(String defaultTarget) in C:\code\fake\src\app\FakeLib\AdditionalSyntax.fs:line 29
+   at <StartupCode$FSI_0005>.$FSI_0005_Build$fsx.main@() in C:\Users\Rastislav\Documents\workspace\myexamples\FSharpApplied\CafeApp\build.fsx:line 27
+Stopped due to error
